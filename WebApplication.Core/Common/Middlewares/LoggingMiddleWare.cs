@@ -37,7 +37,7 @@ namespace WebApplication.Core.Common.Middlewares
         }
     }
     // Extension method used to add the middleware to the HTTP request pipeline.
-    public static class GlobalErrorHandlingMiddlewareExtensions
+    public static class LoggingMiddleWareExtensions
     {
         public static IApplicationBuilder UseLoggingMiddleWare(this IApplicationBuilder builder)
         {

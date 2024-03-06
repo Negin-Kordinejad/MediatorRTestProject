@@ -18,7 +18,6 @@ using WebApplication.Core.Users.Commands;
 using WebApplication.Core.Users.Common.Models;
 using WebApplication.IntegrationTests.Extensions;
 using Xunit;
-using AutoFixture;
 
 namespace WebApplication.IntegrationTests
 {
